@@ -6,16 +6,39 @@
 </head>
 <body>
   <header class="page-header">
-    <img class="page-header__logo" src="#" alt="Логотип Девайс">
+    <p class="page-header__logo">Device</p>
     <nav class="main-nav">
       <ul class="main-nav__user-nav">
-        <li class="main-nav__user-nav__item">Поиск по сайту</li>
-        <li class="main-nav__user-nav__item">Войти</li>
-        <li class="main-nav__user-nav__item">Сравнить</li>
-        <li class="main-nav__user-nav__item">Корзина</li>
+        <li class="main-nav__user-nav__item"><img class="main-nav__user-nav__search" src="img/search.svg" alt="Поиск">Поиск по сайту</li>
+        <li class="main-nav__user-nav__item"><img class="main-nav__user-nav__user" src="img/user.svg" alt="Войти">Войти</li>
+        <li class="main-nav__user-nav__item"><img class="main-nav__user-nav__compare" src="img/compare.svg" alt="Сравнить">Сравнить</li>
+        <li class="main-nav__user-nav__item"><img class="main-nav__user-nav__cart" src="img/cart.svg" alt="Корзина">Корзина</li>
       </ul>
       <ul class="main-nav__site-nav">
-        <li class="main-nav__site-nav__item">Каталог товаров</li>
+        <li class="main-nav__site-nav__item"><a class="main-nav__site-nav__link" href="catalog.html">Каталог товаров<img class="main-nav__site-nav__plus" src="img/plus.svg" alt="Раскрыть список">
+        <div class="catalog-menu">
+          <ul class="catalog-menu__list">
+            <li class="catalog-menu__item">
+              <a class="catalog-menu__link" href="#">Виртуальная реальность</a>
+            </li>
+            <li class="catalog-menu__item">
+              <a class="catalog-menu__link" href="#">Фитнес-браслеты</a>
+            </li>
+            <li class="catalog-menu__item">
+              <a class="catalog-menu__link" href="#">Квадракоптеры</a>
+            </li>
+            <li class="catalog-menu__item">
+              <a class="catalog-menu__link" href="#">Моноподы для селфи</a>
+            </li>
+            <li class="catalog-menu__item">
+              <a class="catalog-menu__link" href="#">Умные часы</a>
+            </li>
+            <li class="catalog-menu__item">
+              <a class="catalog-menu__link" href="#">Экшн-камеры</a>
+            </li>
+          </ul>
+          </div>
+          </li>
         <li class="main-nav__site-nav__item">Доставка</li>
         <li class="main-nav__site-nav__item">Гарантия</li>
         <li class="main-nav__site-nav__item">Контакты</li>
@@ -92,27 +115,27 @@
       <h1 class="visually-hidden">Товары</h1>
       <ul class="goods__list">
         <li class="goods__item">
-          <img class="goods__img" src="#" alt="Виртуальная реальность">
+          <img class="goods__img" src="img/popular-1.svg" alt="Виртуальная реальность">
           <p class="goods__title">Виртуальная реальность</p>
         </li>
         <li class="goods__item">
-          <img class="goods__img" src="#" alt="Моноподы для селфи">
+          <img class="goods__img" src="img/popular-2.svg" alt="Моноподы для селфи">
           <p class="goods__title">Моноподы для селфи</p>
         </li>
         <li class="goods__item">
-          <img class="goods__img" src="#" alt="Экшн-камеры">
+          <img class="goods__img" src="img/popular-3.svg" alt="Экшн-камеры">
           <p class="goods__title">Экшн-камеры</p>
         </li>
         <li class="goods__item">
-          <img class="goods__img" src="#" alt="Фитнес-браслеты">
+          <img class="goods__img" src="img/popular-4.svg" alt="Фитнес-браслеты">
           <p class="goods__title">Фитнес-браслет</p>
         </li>
         <li class="goods__item">
-          <img class="goods__img" src="#" alt="Умные часы">
+          <img class="goods__img" src="img/popular-5.svg" alt="Умные часы">
           <p class="goods__title">Умные часы</p>
         </li>
         <li class="goods__item">
-          <img class="goods__img" src="#" alt="Квадракоптеры">
+          <img class="goods__img" src="img/poppular-6.svg" alt="Квадракоптеры">
           <p class="goods__title">Квадракоптеры</p>
         </li>
       </ul>
@@ -125,7 +148,7 @@
             <p class="slider-services-description__text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем,
               поднимая его на ваш этаж.</p>
           </div>
-          <img class="slider-services__img" src="#" alt="Доставка">
+          <img class="slider-services__img" src="img/delivery.svg" alt="Доставка">
         </li>
         <li class="slider-services__item">
           <div class="slider-services-description">
@@ -134,7 +157,7 @@
               не дом, конечно же.
             </p>
           </div>
-          <img class="slider-services__img" src="#" alt="Гарантия">
+          <img class="slider-services__img" src="img/warranty.svg" alt="Гарантия">
         </li>
         <li class="slider-services__item">
           <div class="slider-services-description">
@@ -143,7 +166,7 @@
               Выгодные для нашего банка, разумеется.
             </p>
           </div>
-          <img class="slider-services__img" src="#" alt="Кретит">
+          <img class="slider-services__img" src="img/credit.svg" alt="Кредит">
         </li>
       </ul>
       <div class="slider-services-controls">
@@ -200,11 +223,11 @@
   </main>
   <footer class="page-footer">
     <div class="user-nav">
-      <img class="user-nav__logo" src="#" alt="Логотип Девайс">
+      <p class="user-nav__logo">Device</p>
       <ul class="user-nav__-list">
-        <li class="user-nav__item">Войти</li>
-        <li class="user-nav__item">Сравнить</li>
-        <li class="user-nav__item">Корзина</li>
+        <li class="user-nav__item"><img class="user-nav__user" src="img/user.svg" alt="Войти">Войти</li>
+        <li class="user-nav__item"><img class="user-nav__compare" src="img/compare.svg" alt="Сравнить">Сравнить</li>
+        <li class="user-nav__item"><img class="user-nav__cart" src="img/cart.svg" alt="Корзина">Корзина</li>
       </ul>
     </div>
     <div class="footer-contacts">
@@ -219,16 +242,16 @@
     <div class="social">
       <ul class="social__list">
       <li class="social__item">
-        <img class="social__img" src="#" alt="Фейсбук">
+        <img class="social__img" src="img/fb.svg" alt="Фейсбук">
       </li>
       <li class="social__item">
-        <img class="social__img" src="#" alt="Инстаграм">
+        <img class="social__img" src="img/instagram.svg" alt="Инстаграм">
       </li>
       <li class="social__item">
-        <img class="social__img" src="#" alt="Твиттер">
+        <img class="social__img" src="img/twitter.svg" alt="Твиттер">
       </li>
       </ul>
-      <img class="social__copyright" src="" alt="HTML Academy">
+      <img class="social__copyright" src="img/logo-html.svg" alt="HTML Academy">
     </div>
   </footer>
   <section class="modal-write">
