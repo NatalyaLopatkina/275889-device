@@ -1,3 +1,414 @@
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("fonts/gilroy-extrabold.woff");
+}
+
+body {
+    font-family: "Girloy-Extrabold", Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.page-header {
+    width: 1160px;
+    margin: 0 auto;
+    background-color: #f7e296;
+}
+
+.page-header__logo {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.page-header__logo-link {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.main-nav__user-nav {
+    list-style: none;
+}
+
+.main-nav__user-nav__item {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.main-nav__site-nav {
+    list-style: none;
+}
+
+.main-nav__site-nav__item {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.main-nav__site-nav__link {
+    color: #000000;
+}
+
+.catalog-menu__list {
+    list-style: none;
+}
+
+.catalog-menu__link {
+    color: #000000;
+    font-weight: normal;
+}
+
+.slider {
+    width: 1160px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.slider__list {
+    list-style: none;
+}
+
+.slider-description__title {
+    font-size: 47px;
+    font-weight: bold;
+    line-height: 56px;
+}
+
+.slider-description__text {
+    font-size: 15px;
+    line-height: 30px;
+    color: #464646
+}
+
+.slider-description__link {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000; 
+}
+
+.slider-description__table__td1 {
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.slider-description__table__td2 {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.goods {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.goods__list {
+    list-style: none;
+}
+
+.goods-wrapper {
+    background-color: #f7e296;
+
+}
+
+.goods__title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.slider-services {
+    background-color: #e5e5e5;
+}
+
+.slider-services__list {
+    width: 1160px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.slider-services-description__title {
+    font-size: 47px;
+    font-weight: bold;
+    line-height: 48px;
+}
+
+.slider-services-description__text {
+    font-size: 15px;
+    line-height: 30px;
+    color: #464646;
+}
+
+.partners {
+    background: #ffffff;
+}
+
+.partners__list {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.information {
+    width: 1160px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.about-us__title {
+    font-size: 47px;
+    font-weight: bold;
+    line-height: 48px;
+}
+
+.about-us__text {
+    font-size: 15px;
+    line-height: 30px;
+    color: #464646;
+}
+
+.about-us__transport-list {
+    list-style: none;
+}
+
+.about-us__transport-text {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.about-us__link {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.contacts__title {
+    font-size: 47px;
+    font-weight: bold;
+    line-height: 48px;
+}
+
+.contacts__text {
+    font-size: 15px;
+    line-height: 30px;
+    color: #464646;
+}
+
+.contacts__button {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.page-footer {
+    background: #464646;
+}
+
+.page-footer__wrapper {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.user-nav__logo {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffc600;
+}
+
+.user-nav__list {
+    list-style: none;
+}
+
+.user-nav__item {
+    font-size: 15px;
+    line-height: 36px;
+    color: #ffffff;
+}
+
+.footer-contacts__address {
+    font-size: 15px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.footer-contacts__list {
+    list-style: none;
+}
+
+.footer-contacts__item {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.footer-contacts__phone {
+    font-size: 15px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.social__list {
+    list-style: none;
+}
+
+.page-main__title {
+    font-size: 47px;
+    font-weight: bold;
+    line-height: 48px;
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.breadcrumb {
+    background: #ffffff;
+}
+
+.breadcrumb__list {
+    width: 1160px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.breadcrumb__link {
+    font-size: 14px;
+    line-height: 24px;
+    opacity: 0.3;
+}
+
+.catalog__wrapper {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.filter {
+    background: #efefef;
+}
+
+.filter__title {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.filter__cost,
+.color__title,
+.bluetooth__title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.price-controls__min,
+.price-controls__max {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.color__list,
+.bluetooth__list {
+    list-style: none;
+}
+
+.form__button {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sort {
+    background: #ebebeb;
+}
+
+.sort__title {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.sort__list {
+    list-style: none;
+}
+
+.sort__link {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.sort__arrow-list {
+    list-style: none
+}
+
+.catalog-goods__list {
+    list-style: none;
+}
+
+.item-description__title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.item-description__cost {
+    font-size: 16px;
+    line-height: 24px;
+    color: #464646;
+}
+.catalog-goods__wrapper {
+    background: #efefef;
+}
+
+.add-goods__button {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.add-goods__text {
+    font-size: 13px;
+    line-height: 36px;
+    opacity: 0.5;
+}
+
+.pagination {
+    background: #ebebeb;
+}
+
+.pagination__list {
+    list-style: none;
+}
+
+.pagination__link {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.pagination__link--not-active {
+    opacity: 0.3;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
 .modal-write {
     display: none;
 }

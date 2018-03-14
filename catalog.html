@@ -57,11 +57,12 @@
         </ul>
       </div>
       <div class="catalog">
+        <div class="catalog__wrapper">
       <section class="filter">
         <h1 class="visually-hidden">Фильтр</h1>
         <p class="filter__title">Фильтр:</p>
         <form class="filter__form" action="" method="post">
-          <p class="Filter__cost">Стоимость</p>
+          <p class="filter__cost">Стоимость</p>
           <div class="range-filter">
             <div class="range-controls">
               <div class="scale">
@@ -71,10 +72,10 @@
                 <div class="toggle max-toggle"></div>
               </div>
               <div class="price-controls">
-                <label for="price1">ОТ
+                <label for="price1" class="price-controls__min">от
                   <input id="price1" class="price-controls__min" type="text" value="0">
                 </label>
-                <label for="price2">ДО
+                <label for="price2" class="price-controls__max">до
                   <input id="price2" class="price-controls__max" type="text" value="5000">
                 </label>
               </div>
@@ -149,10 +150,11 @@
           </ul>
       </div>
       <section class="catalog-goods">
-        <h2 class="vissually-hidden">Каталог товаров</h2>
+        <h2 class="visually-hidden">Каталог товаров</h2>
         <ul class="catalog-goods__list">
           <li class="catalog-goods__item">
-            <img class="catalog-goods__img" src="#" alt="Любительская селфи-палка">
+            <div class="catalog-goods__wrapper">
+            <img class="catalog-goods__img" src="#" alt="Любительская селфи-палка"></div>
             <div class="item-description">
               <p class="item-description__title">Любительская селфи-палка</p>
               <p class="item-description__cost">500 руб.</p>
@@ -163,7 +165,8 @@
             </div>
           </li>
           <li class="catalog-goods__item">
-            <img class="catalog-goods__img" src="#" alt="Профессиональная селфи-палка">
+            <div class="catalog-goods__wrapper">
+            <img class="catalog-goods__img" src="#" alt="Профессиональная селфи-палка"></div>
             <div class="item-description">
               <p class="item-description__title">Профессиональная селфи-палка</p>
               <p class="item-description__cost">1500 руб.</p>
@@ -174,7 +177,8 @@
             </div>
           </li>
           <li class="catalog-goods__item">
-            <img class="catalog-goods__img" src="#" alt="Непотопляемая селфи-палка">
+            <div class="catalog-goods__wrapper">
+            <img class="catalog-goods__img" src="#" alt="Непотопляемая селфи-палка"></div>
             <div class="item-description">
               <p class="item-description__title">Непотопляемая селфи-палка</p>
               <p class="item-description__cost">2500 руб.</p>
@@ -185,7 +189,8 @@
             </div>
           </li>
           <li class="catalog-goods__item">
-            <img class="catalog-goods__img" src="#" alt="Селфи-палка "Следуй за мной"">
+            <div class="catalog-goods__wrapper">
+            <img class="catalog-goods__img" src="#" alt="Селфи-палка "Следуй за мной""></div>
             <div class="item-description">
               <p class="item-description__title">Селфи палка "Следуй за мной"</p>
               <p class="item-description__cost">4900 руб.</p>
@@ -197,6 +202,9 @@
           </li>
         </ul>
       </section>
+      </div>
+        </div>
+      </div>
       <div class="pagination">
         <ul class="pagination__list">
           <li class="pagination__item">
@@ -206,22 +214,21 @@
             <a class="pagination__link" href="#">1</a>
           </li>
           <li class="pagination__item">
-            <a class="pagination__link" href="#">2</a>
+            <a class="pagination__link pagination__link--not-active" href="#">2</a>
           </li>
           <li class="pagination__item">
-            <a class="pagination__link" href="#">3</a>
+            <a class="pagination__link pagination__link--not-active" href="#">3</a>
           </li>
           <li class="pagination__item">
             <a class="pagination__link" href="#">Вперед</a>
           </li>
         </ul>
       </div>
-      </div>
   </main>
   <footer class="page-footer">
     <div class="user-nav">
-      <p class="user-nav__logo">Device</p>
-      <ul class="user-nav__-list">
+      <a class="user-nav__logo" href="index.html">Device</a>
+      <ul class="user-nav__list">
         <li class="user-nav__item"><img class="user-nav__user" src="img/user.svg" alt="Войти">Валентин Петухов</li>
         <li class="user-nav__item">Выйти</li>
         <li class="user-nav__item"><img class="user-nav__compare" src="img/compare.svg" alt="Сравнить">Сравнить</li>
